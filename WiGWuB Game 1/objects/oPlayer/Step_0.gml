@@ -39,9 +39,11 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (canjump = true) && (key_jump)
+canjump -= 1;
+if (canjump > 0) && (key_jump)
 {
 	vsp = -7;
+	canjump = 0
 }	
 
 //Horizontal Collision
@@ -67,36 +69,36 @@ if (place_meeting(x,y+vsp,oWall))
 y = y + vsp;
 
 //Animation
-
 if (!place_meeting(x,y+1,oWall))
 {
-	canjump = false
 	sprite_index = sInquisitorA;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 }
-else if (sprite_index == sInquisitorA and place_meeting(x,y+1,oWall))
+else
 {
-	canjump = true
+	canjump = 10
+	if (sprite_index == sInquisitorA) 
+	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
 		audio_play_sound(snLanding,4,false);
 		repeat(5)
 		{
-			with (instance_create_layer(x,bbox_bottom,"Walls",oDust))
+			with (instance_create_layer(x,bbox_bottom,"Player",oDust))
 			{
 				vsp = 0;	
 			}
 		}
-		sprite_index = sInquisitor_idle;
-		image_speed = 1;
-	//else
-	//{
-		//sprite_index = sInquisitor //R
-	//}
-}
-else if (hsp=0 and keyboard_check(vk_nokey))
+	}
+	image_speed = 1;
+	if (hsp == 0)
 	{
 		sprite_index = sInquisitor_idle;
-		image_speed = 1;
 	}
+	else
+	{
+		sprite_index = sInquisitor //R
+	}
+}
+
 if (hsp != 0) image_xscale = sign(hsp);
