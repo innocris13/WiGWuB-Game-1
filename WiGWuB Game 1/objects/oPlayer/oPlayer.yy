@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oPlayer",
   "spriteId": {
-    "name": "sInquisitor",
-    "path": "sprites/sInquisitor/sInquisitor.yy",
+    "name": "sAntithesi",
+    "path": "sprites/sAntithesi/sAntithesi.yy",
   },
   "solid": false,
   "visible": true,

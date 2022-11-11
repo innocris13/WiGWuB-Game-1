@@ -6,11 +6,11 @@ if (instance_exists(follow))
 	xTo = follow.x
 	yTo = follow.y
 	//"deadplayer" should be changed to the object of the dead player
-	if ((follow).object_index == oPlayer)
-	{
-		x = xTo;
-		y = yTo;
-	}
+	//if ((follow).object_index == deadplayer)
+	//{
+	//	x = xTo;
+	//	y = yTo;
+	//}
 	
 }
 

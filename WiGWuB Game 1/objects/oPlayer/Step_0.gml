@@ -71,14 +71,14 @@ y = y + vsp;
 //Animation
 if (!place_meeting(x,y+1,oWall))
 {
-	sprite_index = sInquisitorA;
+	sprite_index = sAntithesiA;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 }
 else
 {
 	canjump = 10
-	if (sprite_index == sInquisitorA) 
+	if (sprite_index == sAntithesiA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
 		audio_play_sound(snLanding,4,false);
@@ -93,11 +93,11 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = sInquisitor_idle;
+		sprite_index = sAntithesiI;
 	}
 	else
 	{
-		sprite_index = sInquisitor //R
+		sprite_index = sAntithesiR
 	}
 }
 
