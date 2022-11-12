@@ -2,6 +2,9 @@
 
 distToPlayer = distance_to_object(oPlayer);
 
+//Gravity
+vsp = vsp + grv;
+
 //Horizontal Collision
 if (place_meeting(x+hsp,y,oWall))
 {
@@ -27,7 +30,7 @@ y += vsp;
 if(distToPlayer < chaseEngageDist)
 {
 	direction = point_direction(x,y, oPlayer.x, oPlayer.y);
-	speed = 1;
+	speed = walksp;
 }
 else
 {

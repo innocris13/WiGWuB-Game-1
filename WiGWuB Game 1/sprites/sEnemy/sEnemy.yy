@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "WiGWuB Game 1",
-    "path": "WiGWuB Game 1.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }
