@@ -66,7 +66,7 @@ function PlayerState_Free()
 		}
 		else
 		{
-			sprite_index = sPlaceholderCharacterIdle;
+			sprite_index = sPlaceholderCharacterRunning;
 		}
 	
 	}
