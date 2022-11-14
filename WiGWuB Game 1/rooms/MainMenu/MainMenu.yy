@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Main_menu",
+  "name": "MainMenu",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,

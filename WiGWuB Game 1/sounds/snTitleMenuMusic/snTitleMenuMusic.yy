@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snTitle_menu_music",
+  "name": "snTitleMenuMusic",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snTitle_menu_music.wav",
-  "duration": 131.99963,
+  "soundFile": "snTitleMenuMusic.wav",
+  "duration": 0.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

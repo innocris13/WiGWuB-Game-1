@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snCrossbow_firing",
+  "name": "snCrossbowFiring",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,7 +14,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snCrossbow_firing.mp3",
+  "soundFile": "snCrossbowFiring.mp3",
   "duration": 0.439375,
   "parent": {
     "name": "Sounds",
