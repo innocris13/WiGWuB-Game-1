@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sAntithesiGreatswordAttack",
+  "name": "sPlaceholderCharacterGreatswordAttack",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -37,7 +37,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sAntithesiGreatswordAttack",
+    "name": "sPlaceholderCharacterGreatswordAttack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -49,11 +49,11 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"385c811d-0acc-4cec-8436-29e3b731bf03","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"842ff96a-4edf-4d3c-9002-34a4be70ad78","path":"sprites/sAntithesiGreatswordAttack/sAntithesiGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d47fe722-7e64-4189-8054-ecd3ea2b3ff7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1160e5c-f1b0-4271-9271-bfad5cd88bd8","path":"sprites/sAntithesiGreatswordAttack/sAntithesiGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6bd297c2-ce03-4cda-8a95-39f4dd3fe76d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f196a1ed-7caf-4b39-aae2-c3b58923c938","path":"sprites/sAntithesiGreatswordAttack/sAntithesiGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ee24df67-745c-4851-b15b-81e29e5a50ed","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb8ff8d4-721d-4cfa-8a77-396cd074db28","path":"sprites/sAntithesiGreatswordAttack/sAntithesiGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"df169607-96a9-4f54-8d8f-a50642da352b","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a88b5d8-bb44-4841-acdc-90985f092472","path":"sprites/sAntithesiGreatswordAttack/sAntithesiGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"385c811d-0acc-4cec-8436-29e3b731bf03","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"842ff96a-4edf-4d3c-9002-34a4be70ad78","path":"sprites/sPlaceholderCharacterGreatswordAttack/sPlaceholderCharacterGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d47fe722-7e64-4189-8054-ecd3ea2b3ff7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1160e5c-f1b0-4271-9271-bfad5cd88bd8","path":"sprites/sPlaceholderCharacterGreatswordAttack/sPlaceholderCharacterGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6bd297c2-ce03-4cda-8a95-39f4dd3fe76d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f196a1ed-7caf-4b39-aae2-c3b58923c938","path":"sprites/sPlaceholderCharacterGreatswordAttack/sPlaceholderCharacterGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ee24df67-745c-4851-b15b-81e29e5a50ed","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb8ff8d4-721d-4cfa-8a77-396cd074db28","path":"sprites/sPlaceholderCharacterGreatswordAttack/sPlaceholderCharacterGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"df169607-96a9-4f54-8d8f-a50642da352b","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a88b5d8-bb44-4841-acdc-90985f092472","path":"sprites/sPlaceholderCharacterGreatswordAttack/sPlaceholderCharacterGreatswordAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

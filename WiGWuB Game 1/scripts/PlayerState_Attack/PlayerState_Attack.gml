@@ -4,9 +4,9 @@ function PlayerState_Attack(_weaponDamage)
 	//vsp = 0;
 
 	//Start Attack
-	if(sprite_index != sAntithesiGreatswordAttack)
+	if(sprite_index != sPlaceholderCharacterGreatswordAttack)
 	{
-		sprite_index = sAntithesiGreatswordAttack;
+		sprite_index = sPlaceholderCharacterGreatswordAttack;
 		oGreatsword.x = oPlayer.x;
 		oGreatsword.y = oPlayer.y;
 		oGreatsword.visible = true;
@@ -44,11 +44,11 @@ function PlayerState_Attack(_weaponDamage)
 	}
 
 	ds_list_destroy(hitByAttackNow);
-	mask_index = sAntithesiI;
+	mask_index = sPlaceholderCharacterIdle;
 
 	if(animation_End())
 	{
-		sprite_index = sAntithesiI;
+		sprite_index = sPlaceholderCharacterIdle;
 		oGreatsword.visible = false;
 		state = PLAYERSTATE.FREE;
 	}

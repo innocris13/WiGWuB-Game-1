@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oPlayer",
   "spriteId": {
-    "name": "sAntithesi",
-    "path": "sprites/sAntithesi/sAntithesi.yy",
+    "name": "sPlaceholderCharacter",
+    "path": "sprites/sPlaceholderCharacter/sPlaceholderCharacter.yy",
   },
   "solid": false,
   "visible": true,
