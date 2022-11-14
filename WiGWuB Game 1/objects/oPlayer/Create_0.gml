@@ -10,3 +10,6 @@ enum PLAYERSTATE
 	FREE,
 	ATTACK
 }
+
+healthbarX = (32);
+healthbarY = 380;
