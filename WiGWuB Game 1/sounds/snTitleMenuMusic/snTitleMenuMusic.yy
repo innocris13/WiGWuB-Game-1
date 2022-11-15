@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snTitleMenuMusic.wav",
-  "duration": 0.0,
+  "duration": 131.99963,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

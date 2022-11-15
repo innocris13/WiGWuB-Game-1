@@ -11,5 +11,5 @@ enum PLAYERSTATE
 	ATTACK
 }
 
-healthbarX = (32);
-healthbarY = 380;
+healthbarX = (120/2) - (healthbarWidth/2);
+healthbarY = ystart - 200;
