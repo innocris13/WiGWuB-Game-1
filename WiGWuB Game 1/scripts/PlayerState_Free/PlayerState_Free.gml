@@ -71,9 +71,9 @@ function PlayerState_Free()
 	
 	}
 
-	if (hsp != 0) image_xscale = sign(hsp);
-
 	if(key_weapon_attack && equippedWeapon != "")
 		state = PLAYERSTATE.ATTACK;
+		
+	if (hsp != 0) image_xscale = sign(hsp);
 	
 }

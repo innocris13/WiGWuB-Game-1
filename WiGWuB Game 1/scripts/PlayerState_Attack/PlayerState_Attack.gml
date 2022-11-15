@@ -11,10 +11,19 @@ function PlayerState_Attack(_weaponDamage)
 		oGreatsword.y = oPlayer.y;
 		oGreatsword.visible = true;
 		oGreatsword.image_index = 0;
-		//oGreatsword.image_xscale = sign(hsp);
-		
+		//Weapon attack image flips based on oPlayer orientation
+		if(oPlayer.image_xscale = -1)
+		{
+			oGreatsword.image_xscale = -1;
+		}
+		else
+		{
+			oGreatsword.image_xscale = 1;
+		}
 		image_index = 0;
 		ds_list_clear(hitByAttack);
+		
+		
 	}
 
 	//Use attack hitbox and check for hits
