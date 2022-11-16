@@ -126,7 +126,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "PlaceholderCharacter",
-    "path": "folders/Sprites/PlaceholderCharacter.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }
