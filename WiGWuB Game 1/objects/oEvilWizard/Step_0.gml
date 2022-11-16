@@ -3,13 +3,13 @@ vsp = vsp + grv;
 //Dont walk off edges
 if (grounded) and (afraidofheights) and (!place_meeting(x+hsp,y+1,oWall))
 {
-	//hsp = -hsp	
+	hsp = -hsp	
 }
 
-if (place_meeting(x+hsp-6 or -6,y,oWall)) and (place_meeting(x,y+1,oWall))
-{
-	vsp = random_range(-4,-12);
-}
+//if (place_meeting(x+hsp-6 or -6,y,oWall)) and (place_meeting(x,y+1,oWall))
+//{
+	//vsp = random_range(-4,-12);
+//}
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,oWall))
@@ -37,7 +37,7 @@ y = y + vsp;
 if (!place_meeting(x,y+1,oWall))
 {
 	grounded = false
-	sprite_index = sEnemyA;
+	sprite_index = sEvilWizardAirborn;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 }
@@ -47,11 +47,11 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = sEnemy;
+		sprite_index = sEvilWizard;
 	}
 	else
 	{
-		sprite_index = sEnemyR
+		sprite_index = sEvilWizardRunning
 	}
 }
 

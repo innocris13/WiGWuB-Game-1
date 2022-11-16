@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEvilWizardProjectile",
+  "name": "oEvilWizardDeath",
   "spriteId": {
-    "name": "sEvilWizardProjectile",
-    "path": "sprites/sEvilWizardProjectile/sEvilWizardProjectile.yy",
+    "name": "sEvilWizardDeath",
+    "path": "sprites/sEvilWizardDeath/sEvilWizardDeath.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,9 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
