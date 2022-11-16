@@ -28,12 +28,23 @@ if accept_key
 				switch(pos)
 					{
 						//start game
-						case 0: room_goto_next(); 
-						break;
+						case 0: 
+							room_goto_next(); 
+							break;
 						//settings
-						case 1: menu_level = 1; break;
+						case 1: 
+							menu_level = 1; 
+							break;
 						//exit game
-						case 2: game_end(); break;
+						case 2: 
+							game_end(); 
+							break;
+						case 3: 
+							room_goto(rServer);
+							break;
+						case 4: 
+							room_goto(Room1);
+							break;
 					}
 				break;
 				
@@ -42,14 +53,19 @@ if accept_key
 				switch(pos)
 					{
 						//fullscreen
-						case 0: window_set_fullscreen(!window_get_fullscreen());
-						break;
+						case 0: 
+							window_set_fullscreen(!window_get_fullscreen());
+							break;
 						//brightness
-						case 1: break;
+						case 1: 
+							break;
 						//controls
-						case 2: break;
+						case 2: 
+							break;
 						//back
-						case 3: menu_level = 0; break;
+						case 3: 
+							menu_level = 0; 
+							break;
 					}
 		}
 		

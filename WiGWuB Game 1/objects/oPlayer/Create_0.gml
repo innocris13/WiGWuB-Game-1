@@ -2,6 +2,9 @@
 //oPlayer is currently built for the PlaceholderCharacter character only.
 //Oplayer should be updated later to function properly with other characters and multiple players.
 
+randomize();
+pID = irandom_range(1, 10000);
+
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
 

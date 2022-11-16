@@ -12,14 +12,7 @@ function PlayerState_Attack(_weaponDamage)
 		oGreatsword.visible = true;
 		oGreatsword.image_index = 0;
 		//Weapon attack image flips based on oPlayer orientation
-		if(oPlayer.image_xscale = -1)
-		{
-			oGreatsword.image_xscale = -1;
-		}
-		else
-		{
-			oGreatsword.image_xscale = 1;
-		}
+		oGreatsword.image_xscale = oPlayer.image_xscale;
 		image_index = 0;
 		ds_list_clear(hitByAttack);
 		

@@ -1,4 +1,4 @@
-function PlayerState_Attack(_weaponDamage)
+function EvilCloneState_Attack(_weaponDamage)
 {
 	//hsp = 0;
 	//vsp = 0;

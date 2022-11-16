@@ -12,6 +12,8 @@ pos = 0;
 option[0, 0] = "Start Game";
 option[0, 1] = "Settings";
 option[0, 2] = "Quit Game";
+option[0, 3] = "Host Online Session";
+option[0, 4] = "Join Online Session";
 
 //setting menu
 option[1, 0] = "Fullscreen";

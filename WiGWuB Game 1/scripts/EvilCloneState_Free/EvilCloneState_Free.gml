@@ -1,4 +1,4 @@
-function PlayerState_Free()
+function EvilCloneState_Free()
 {
 	//Calculate Movement
 	var move = key_right - key_left;
