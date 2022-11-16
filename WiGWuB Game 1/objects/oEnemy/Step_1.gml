@@ -1,5 +1,11 @@
 /// @desc Enemy death code and animation
 
+if(enemyHealth = (enemyHealthMax/2))
+{
+	sprite_index = sEnemyInjured50;
+	image_speed = 0;
+}
+
 if(enemyHealth <= 0)
 {
 	sprite_index = sEnemyDeath;
@@ -10,8 +16,3 @@ if(enemyHealth <= 0)
 		instance_destroy();
 	}
 }
-
-
-
-
-
