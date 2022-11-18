@@ -56,6 +56,10 @@ if(instance_exists(oClient) && (pID == oClient.playerID))
 	buffer_write(buffer, buffer_u16, pID);
 	buffer_write(buffer, buffer_s16, x);
 	buffer_write(buffer, buffer_s16, y);
+	buffer_write(buffer, buffer_s16, image_xscale);
+	buffer_write(buffer, buffer_s16, sprite_index);
+	buffer_write(buffer, buffer_s16, image_index);
+	buffer_write(buffer, buffer_s16, image_speed);
 	network_send_packet(oClient.client, buffer, buffer_tell(buffer));
 	buffer_delete(buffer);
 
