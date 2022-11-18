@@ -24,10 +24,18 @@ switch (packet_ID) //Read network enum from packet sent from server
 				//Read buffer data regarding player
 				var player_x = buffer_read(packet, buffer_s16);
 				var player_y = buffer_read(packet, buffer_s16);
+				var player_imageXScale = buffer_read(packet, buffer_s16);
+				var player_spriteIndex = buffer_read(packet, buffer_s16);
+				var player_imageIndex = buffer_read(packet, buffer_s16);
+				var player_imageSpeed = buffer_read(packet, buffer_s16);
 				
 				//Assign buffer data to player
 				playerToAssignPacket.x = player_x;
 				playerToAssignPacket.y = player_y;
+				playerToAssignPacket.image_xscale = player_imageXScale;
+				playerToAssignPacket.sprite_index = player_spriteIndex;
+				playerToAssignPacket.image_index = player_imageIndex;
+				playerToAssignPacket.image_speed = player_imageSpeed;
 			}
 		}
 		break;

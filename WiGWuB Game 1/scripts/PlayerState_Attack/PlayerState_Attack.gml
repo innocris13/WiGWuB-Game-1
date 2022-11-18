@@ -23,13 +23,13 @@ function PlayerState_Attack(_weaponDamage)
 	mask_index = sNormalGreatsword;
 	var hitByAttackNow = ds_list_create(); //Enemies hit by attack now
 	var hits = instance_place_list(x,y,oEnemy,hitByAttackNow,false); //Number of hits that happened this attack
-	if (place_meeting(x,y,pHitable))
-	{
-		with (instance_place(x,y,pHitable))
-		{
-			flash = 2;
-		}
-	}
+	//if (place_meeting(x,y,pHitable))
+	//{
+	//	with (instance_place(x,y,pHitable))
+	//	{
+	//		flash = 2;
+	//	}
+	//}
 	if(hits > 0)
 	{
 		for(var i = 0; i < hits; i++)
@@ -44,7 +44,8 @@ function PlayerState_Attack(_weaponDamage)
 					if(enemyHealth  > 0)
 					{
 						enemyHealth -= _weaponDamage;
-						lastHitDirection = other.direction;	
+						lastHitDirection = other.direction;
+						flash = 2;
 					}
 				}
 			}
